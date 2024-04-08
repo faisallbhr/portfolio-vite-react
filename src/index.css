@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.title-section {
+  text-transform: uppercase;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  transition: all;
+  transition-duration: 300ms;
+}
+.sticky-title {
+  position: sticky;
+  top: 0px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 1px 2px 0 #fff;
+  z-index: 10;
+}
+
+.arrow-link {
+  @apply group-hover:translate-y-0 group-hover:translate-x-1;
+  display: inline-block;
+  transform: translateY(0.25rem);
+  transition: all;
+  transition-duration: 300ms;
+}
+
+.light {
+  background: -moz-linear-gradient(
+    -45deg,
+    #000103 0%,
+    #000103 40%,
+    #1e2631 50%,
+    #000103 60%,
+    #000103 100%
+  );
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    color-stop(0%, #000103),
+    color-stop(40%, #000103),
+    color-stop(50%, #1e2631),
+    color-stop(60%, #000103),
+    color-stop(100%, #000103)
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    #000103 0%,
+    #000103 40%,
+    #1e2631 50%,
+    #000103 60%,
+    #000103 100%
+  );
+  background: -o-linear-gradient(
+    -45deg,
+    #000103 0%,
+    #000103 40%,
+    #1e2631 50%,
+    #000103 60%,
+    #000103 100%
+  );
+  background: -ms-linear-gradient(
+    -45deg,
+    #000103 0%,
+    #000103 40%,
+    #1e2631 50%,
+    #000103 60%,
+    #000103 100%
+  );
+  background: linear-gradient(
+    135deg,
+    #000103 0%,
+    #000103 40%,
+    #1e2631 50%,
+    #000103 60%,
+    #000103 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000103', endColorstr='#000103',GradientType=1 );
+  background-repeat: no-repeat;
+  background-position: 0px;
+  background-size: 300%;
+}
+
+.light:hover {
+  animation: light 1s;
+  -webkit-animation: light 1s;
+}
+
+@keyframes light {
+  0% {
+    background-position: -250px;
+  }
+  100% {
+    background-position: 0px;
+  }
+}
+
+@-webkit-keyframes light {
+  0% {
+    background-position: -250px;
+  }
+  100% {
+    background-position: 0px;
+  }
+}
