@@ -63,12 +63,14 @@ export const EXPERIENCES: IExperience[] = [
     link: "https://buildandservice.vercel.app/",
     date: "Dec, 2023 - Present",
     jobDesc: [
+      "Designing and Managing Social Media Content",
       "Responsible for meeting with clients to discuss project needs.",
       "Designing database and project structure.",
       "Deployment projects.",
       "Ensure that all programs that have been carried out run well and in accordance with the standards set.",
     ],
     techStack: [
+      "Figma",
       "HTML/CSS",
       "Next JS",
       "Express JS",
