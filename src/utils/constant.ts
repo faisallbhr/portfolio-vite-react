@@ -72,6 +72,7 @@ export const EXPERIENCES: IExperience[] = [
     techStack: [
       "Figma",
       "HTML/CSS",
+      "PHP",
       "Next JS",
       "Express JS",
       "Python",
