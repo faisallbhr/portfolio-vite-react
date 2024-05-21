@@ -54,7 +54,7 @@ export const EXPERIENCES: IExperience[] = [
       "Apply software testing techniques, including functional testing, integration testing, and debugging to find and fix bugs in code.",
       "Understand and implement software architecture principles, including design patterns, clean programming, and SOLID principles.",
     ],
-    techStack: ["Figma", "HTML/CSS", "Next JS", "Laravel", "MySQL", "Docker"],
+    techStack: ["Figma", "HTML/CSS", "Next JS", "Laravel", "MySQL"],
   },
   {
     position: "Fullstack Engineer",
